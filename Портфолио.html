@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="123.png">
+    <link rel="stylesheet" href="styles.css"> <!-- Подключаем файл стилей -->
+    <title>Блог</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .vertical-nav {
+            position: fixed;
+            top: 60px;
+            /* Adjust according to header height */
+            left: 0;
+            height: calc(100% - 60px);
+            /* Adjust according to header height */
+            width: 200px;
+            background-color: #333;
+            padding: 20px 0;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .vertical-nav a {
+            color: rgb(199, 160, 52);
+            padding: 10px 20px;
+            text-decoration: none;
+            display: block;
+            width: 100%;
+            text-align: center;
+            transition: color 0.3s;
+            /* Плавное изменение цвета текста при наведении курсора */
+        }
+
+        .vertical-nav a:hover {
+            background-color: #f5d15c;
+            color: black;
+        }
+
+        .content {
+            margin-left: 220px;
+            padding: 20px;
+        }
+
+        section {
+            padding: 60px 20px;
+            height: auto;
+        }
+
+        .section1 {
+            background-color: #f4f4f4;
+        }
+
+        .section2 {
+            background-color: #e2e2e2;
+        }
+
+        .section21 {
+            background-color: #e2e2e2;
+        }
+
+        .section3 {
+            background-color: #c0c0c0;
+        }
+
+        .section4 {
+            background-color: #c0c0c0;
+        }
+
+        .section5 {
+            background-color: #c0c0c0;
+        }
+
+        .section6 {
+            background-color: #c0c0c0;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #333;
+        }
+
+        p {
+            color: #333333;
+        }
+
+
+        .scene {
+            margin-bottom: 20px;
+        }
+
+        .scene-title {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        .dialogue,
+        .visuals,
+        .music,
+        .colors {
+            margin-top: 10px;
+        }
+
+        .highlight {
+            color: #442700;
+            font-weight: bold;
+        }
+
+        .highlights {
+            color: #1a1203;
+            font-weight: bold;
+        }
+
+        .activity {
+            margin: 15px 0;
+        }
+
+        .activity-title {
+            font-size: 1.2em;
+            color: #1a73e8;
+            margin-bottom: 5px;
+        }
+
+        .speaker-info {
+            margin: 15px 0;
+        }
+
+        .speaker {
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="/myportfolio/">Главная</a></li>
+                <li><a href="Контакты.html">Контакты</a></li>
+                <li><a href="Портфолио.html">Портфолио</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <nav class="vertical-nav">
+        <a href="#section1">Простые сайты</a>
+        <a href="#section2">Лендинги</a>
+        <a href="#section21">Эффекты</a>
+        <a href="#section3">Магазины</a>
+        <a href="#section4">Игра</a>
+        <a href="#section5">API (Open.ai)</a>
+        <a href="#section6">1C</a>
+    </nav>
+
+    <main class="content" style="padding-top: 50px;">
+
+        <img src="FAS0CqUkt2Y.jpg" alt="Изображение проекта 1">
+
+    </main>
+
+    <footer>
+        <div class="contact" id="contact">
+            <h3>Свяжитесь со мной по</h3>
+            <p>Email: rieltor0001@gmail.com</p>
+            <p>Телефон: +7 999 207 31 05</p>
+        </div>
+        <p>&copy; 2024 MiklITAI. Все права защищены.</p>
+    </footer>
+
+</body>
+
+</html>
