@@ -53,6 +53,31 @@
       margin-top: 80px;
       font-size: 48px;
     }
+    html, body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #111;
+      color: #aaa;
+    }
+    .portfolio-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      object-fit: cover;
+      max-height: 180px;
+    }
   </style>
 </head>
 
@@ -74,6 +99,7 @@
 
     <div class="portfolio-grid">
       <div class="portfolio-card">
+        <img src="images/predictor.jpg" alt="Предсказатель" />
         <h3>ИИ предсказатель</h3>
         <p>Прогноз и предсказывает на основе данных на текущий день.</p>
         <a href="http://81.163.30.185:8081/" target="_blank">Перейти на сайт →</a>
